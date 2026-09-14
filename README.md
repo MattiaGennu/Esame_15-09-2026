@@ -50,6 +50,7 @@ Esame_15-09-2026/
 ├── requirements.txt
 ├── Guida esame in laboratorio v02.pdf
 ├── README.md
+├── plot.png
 ├── flightdelays_reduced.sql (DA IMPORTARE)
 └── main.py (DA ESEGUIRE)
  ```
