@@ -1,1 +1,55 @@
-# Esame_15-09-2026
+# Esame - 15/09/2026
+
+---
+> **❗ ATTENZIONE:** 
+>  Ricordare di effettuare il **fork** del repository principale, quindi clonare su PyCharm il **repository personale** 
+> (https://github.com/my-github-username/Esame_15-09-2026) e non quello principale.
+
+---
+**DURATA DELLA PROVA**: 2 h
+
+---
+Si consideri il database `flightdelays_reduced.sql`, contenente un sottoinsieme delle informazioni sugli aeroporti 
+(airports), sulle compagnie aeree (airlines) e sui voli effettuati negli USA nel 2015 (flights), strutturato secondo 
+il seguente diagramma ER.
+![database.png](img/database.png)
+
+-----
+## LINK ACCESSIBILI DURANTE L'ESAME
+- `Python`: https://docs.python.org/
+- `PyCharm`: https://www.jetbrains.com/help/pycharm/getting-started.html
+- `DBeaver`: https://dbeaver.com/docs/dbeaver/
+- `Flet`: https://docs.flet.dev/api-reference/
+- `mysql-connector-python`: https://pypi.org/project/mysql-connector-python/ & https://dev.mysql.com/doc/connector-python/en/
+- `NetworkX`: https://networkx.org/documentation/stable/reference/index.html
+-----
+
+## Materiale Fornito
+Il repository Esame_15-09-2026 è organizzato con la struttura ad albero mostrata di seguito e contiene tutto il necessario 
+per svolgere l'esame:
+
+```code
+Esame_15-09-2026/
+├── database/
+│   ├── __init__.py
+|   ├── connector.cnf 
+|   ├── DB_connect.py 
+│   └── dao.py (DA MODIFICARE) 
+│
+├── model/ (AGGIUNGERE ULTERIORI CLASSI SE NECESSARIE) 
+│   ├── __init__.py
+│   ├── airport.py
+│   └── model.py (DA MODIFICARE) 
+│
+├── UI/
+│   ├── __init__.py
+│   ├── alert.py
+│   ├── controller.py (DA MODIFICARE)
+│   └── view.py (DA MODIFICARE)
+│
+├── requirements.txt
+├── Guida esame in laboratorio v02.pdf
+├── README.md
+├── flightdelays_reduced.sql (DA IMPORTARE)
+└── main.py (DA ESEGUIRE)
+ ```
