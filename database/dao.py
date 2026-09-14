@@ -1,10 +1,12 @@
 from database.DB_connect import DBConnect
 from model.airport import Airport
 
-class DAO():
+class DAO:
+    def __init__(self):
+        pass
 
     @staticmethod
-    def getAllAirports():
+    def get_all_airports():
         conn = DBConnect.get_connection()
 
         result = []
