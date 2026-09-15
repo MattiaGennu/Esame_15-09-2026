@@ -40,8 +40,8 @@ class View():
                       alignment=ft.MainAxisAlignment.CENTER)
         self._page.controls.append(row1)
 
-        self.ddStatoPartenza = ft.Dropdown(label="Stato iniziale", width=250, disabled=True)
-        self.btnStatiRaggiungibili = ft.ElevatedButton(text="Stati raggiungibili", width=180, disabled=True, on_click=self._controller.handle_statiRaggiungibili)
+        self.ddStatoPartenza = ft.Dropdown(label="Stato iniziale", width=250, disabled=False)
+        self.btnStatiRaggiungibili = ft.ElevatedButton(text="Stati raggiungibili", width=180, disabled=False, on_click=self._controller.handle_statiRaggiungibili)
         row2 = ft.Row([self.ddStatoPartenza, self.btnStatiRaggiungibili],
                       alignment=ft.MainAxisAlignment.CENTER)
         self._page.controls.append(row2)
